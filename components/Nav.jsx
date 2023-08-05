@@ -35,6 +35,11 @@ const Nav = () => {
         />
         <p className="">Shareprompt</p>
       </Link>
+
+      <div>
+        <p>blog</p>
+        <p>contact us</p>
+      </div>
       <div className="sm:flex hidden">
         {session?.user ? (
           <div className="flex gap-3 md:gap-5">
@@ -112,6 +117,10 @@ const Nav = () => {
           </div>
         ) : (
           <>
+            <div>
+              <p>blog</p>
+              <p>contact us</p>
+            </div>
             {providers &&
               Object.values(providers).map((provider) => (
                 <button
