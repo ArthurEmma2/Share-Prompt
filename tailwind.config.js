@@ -11,6 +11,10 @@ module.exports = {
         satoshi: ["Satoshi", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
+      container: {
+        center: "true",
+        padding: "0.9rem",
+      },
       colors: {
         "primary-orange": "#FF5722",
       },
